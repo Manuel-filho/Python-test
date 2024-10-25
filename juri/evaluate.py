@@ -2,9 +2,9 @@ import os
 import subprocess
 
 # Diretórios e arquivos de teste
-competition_folder = r"C:/Users/Pinto & Tabita/Desktop/competição/competidor"
-test_input = r"C:/Users/Pinto & Tabita/Desktop/competição/juri/test_cases/test_input.txt"
-expected_output = r"C:/Users/Pinto & Tabita/Desktop/competição/juri/test_cases/expected_output.txt"
+competition_folder = r"C:\wamp64\www\Python-test/competidor"
+test_input = r"C:\wamp64\www\Python-test/juri/test_cases/test_input.txt"
+expected_output = r"C:\wamp64\www\Python-test/juri/test_cases/expected_output.txt"
 
 # Função para avaliar a submissão
 def evaluate_submission(file_path):
@@ -92,7 +92,7 @@ html_content += """
 """
 
 # Salvando o conteúdo em um arquivo HTML
-with open(r"C:/Users/Pinto & Tabita/Desktop/competição/juri/resultados.html", 'w') as f:
+with open(r"C:\wamp64\www\Python-test/juri/resultados.html", 'w') as f:
     f.write(html_content)
 
 print("Arquivo HTML com os resultados gerado com sucesso.")
